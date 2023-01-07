@@ -47,168 +47,188 @@
 
 }
 
+
+
+/* My failure in the previous year styles */
+
+
 main {
-    max-width: 1060;
-    margin: 0px auto;
-}
 
-.my-present {
-
-    margin-top: 130px;
-    border-radius: 10px;
-    padding: 130px 150px 5px;
-    display: flex;
+  padding: 100px 150px;
+  text-align: center;
 
 }
 
-li{
-    list-style: none;
-    color: gray;
+.main-failure {
+  display: flex;
 }
 
- li:before {
-    content: '✓ ' ;
-    color: greenyellow;
-
+.sub-failure {
+  text-align: left;
+  padding: 300px 100px 70px 70px;
 }
 
-.section-title {
-    text-align: left;
-    margin-bottom: 24px;
-    height: 94px;
-    width: 288px;
-    left: 862px;
-    top: 1178px;
-
-    font-family: 'Work Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 47px;
-
-    color:black;
+.primary-title {
+  height: 100px;
+  width: 300px;
+  font-weight: 700;
+  font-size: 35px;
+  color: #151414;
 }
 
-.section-description {
-    color: grey;
-    font-size: 18px;
-    margin-bottom: 30px;
-
-}
-.section-header{
-    text-align: left;
-    padding: 300px 100px 5px 100px;
-
-
-}
-.my-plans{
-    padding-top: 100px;
-    padding-bottom: 50px;
-    text-align: center;
+.failure-description {
+  height: 100px;
+  width: 400px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #444343;
 }
 
-.plans-title{
-    font-weight: 700;
-    font-size: 35px;
-    color: black;
-    padding-bottom: 50px;
+.failure-keynotes {
+  margin: 0;
+  padding: 0;
 }
-.my-plans-container{
-    display: flex;
-    gap: 70px;
-    
+
+li {
+  list-style: none;
+  margin-bottom: 8px;
+}
+
+li:before {
+  content: '✓ ';
+  color: chartreuse
 }
 
 
-.my-plans-info{
-justify-content: space-around;
+/*my planes*/
+
+
+.my-planes {
+
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.plan-title {
+  font-weight: 700;
+  font-size: 35px;
+  color: #151414;
+  padding-bottom: 50px;
+}
+
+.plan-container {
+  display: flex;
+  gap: 70px;
+}
+
+.plan {
+  justify-content: space-around;
 
 }
 
-.info-title{
-    font-size: 20px;
-    color: black;
+.plan-sub-title {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 35px;
+  text-align: center;
+  padding: 24px;
+  color: #151414;
 }
 
-.info-description{
-    font-size: 25px;
-    font-weight: 500;
-    color: gray;
-    
+.plan-description {
+
+  color: #444343;
+  font-weight: 500;
+  font-size: 25px;
 }
 
+/*positive-mindset*/
 .positve-mindset-container{
-    margin-top: 100px;
-    margin-bottom: 100px;
-    padding: 60px;
-    text-align: left;
-    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%),url(images/watch.png);
-    background-repeat: no-repeat;
-    height: 180px;
-    width: 80%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 60px;
+  text-align: left;
+  background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%),url(images/watch.png);
+  background-repeat: no-repeat;
+  height: 180px;
+  width: 80%;
+
 }
 .positive-title{
-    font-weight: 700;
-    font-size: 35px;
-    color: white;
-    padding-right: 500px;
-    padding-bottom: 50px;
-  }
-  footer{
-    background: #151414;
-    display: flex;
-  }
-  .left-part{
-    color: #F8F8F8;
-    padding: 130px 400px 150px 230px ;
-  }
-  .left-footer-title{
-    margin-bottom: 16px;
-  }
-  .left-description,.email,.phone,.icon{
-    margin-bottom: 24px;
-    color: white;
-  }
-  .icon{
-    justify-content: space-between;
-  }
-  
-  .right-part{
-    padding-top: 130px;
-    padding-right: 230px;
-  }
-  .right-part-title{
-    color: #F8F8F8;
-    margin-bottom: 26px;
-  }
-  #mail{
-    margin-bottom: 26px;
-  }
-  
-  input[type="email"]
-  {
-    background-color:black;
-    color: white;
-    border: 2px solid;
-    border-radius: 6px;
-    padding-left: 10px;
-    width: 300px;
-    height: 60px;
-  }
-  input::placeholder{
-    color: white;
-    font-weight: 500;
-    font-size: 15px;
-  
-  }
-  .footer-submit{
-  
-    background-color: #005FAC;
-    color: white;
-    font-weight: 700;
-    font-size: 20px;
-    padding: 18px 20px;
-    border: 2px;
+  font-weight: 700;
+  font-size: 35px;
+  color: white;
+  padding-right: 500px;
+  padding-bottom: 50px;
+}
+
+.btn{
+  height: 40px;
     border-radius: 5px;
-  }
-  
+    background-color:white;
+    color:orangered;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0px;
+    padding: 17px, 34px;
+}
+
+/* Footer part */
+
+footer{
+  background: #151414;
+  display: flex;
+}
+.left-part{
+  color: #F8F8F8;
+  padding: 130px 400px 150px 230px ;
+}
+.left-footer-title{
+  margin-bottom: 16px;
+}
+.left-description,.email,.phone,.icon{
+  margin-bottom: 24px;
+  color: white;
+}
+.icon{
+  justify-content: space-between;
+}
+
+.right-part{
+  padding-top: 130px;
+  padding-right: 230px;
+}
+.right-part-title{
+  color: #F8F8F8;
+  margin-bottom: 26px;
+}
+#mail{
+  margin-bottom: 26px;
+}
+
+input[type="email"]
+{
+  background-color:black;
+  color: white;
+  border: 2px solid;
+  border-radius: 6px;
+  padding-left: 10px;
+  width: 300px;
+  height: 60px;
+}
+input::placeholder{
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+
+}
+.footer-submit{
+
+  background-color: white;
+  color:orangered;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 18px 20px;
+  border: 2px;
+  border-radius: 5px;
+}
