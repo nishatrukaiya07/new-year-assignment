@@ -3,6 +3,29 @@
     margin: 0px;
     font-family: open-sens,sans-serif;
 }
+.banner{
+    margin: 0,200px;
+    display: flex;
+    background-image: url(images/banner/banner1.png);
+    height: 750px;
+    width: 100%;
+
+    
+}
+.banner-title{
+    float: right;
+    
+    text-align:right;
+    height: 300px;
+    padding: 300px 200px 5px 800px; 
+}
+.banner-content{
+    height: 700;
+    font-size: 60px;
+    margin-bottom: 24px;
+
+
+}
 .btn-primary{
      height: 40px;
      border-radius: 5px;
@@ -13,4 +36,9 @@
      border: 0px;
      padding: 17px,34px;
 }
-
+.banner-description{
+    color: grey;
+    font-size: 18px;
+    margin-bottom: 30px;
+    
+}
